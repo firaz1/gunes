@@ -1,0 +1,47 @@
+body{
+
+    background-color: aqua;
+    background-image: url(cocuklar.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+
+p{
+    color: brown;
+ 
+
+    }
+    .ozelp{
+
+        color: rgb(47, 0, 255);
+    }
+     a{
+        padding: 10px;
+        margin: 10px;
+        background-color: fuchsia;
+     }
+
+     .ozela{
+        text-decoration: none;
+        text-transform: lowercase;
+     }
+     .ozela1{
+        text-decoration-line: underline;
+        text-transform: uppercase;
+     }
+
+     ul{
+
+        list-style-type: decimal;  
+        background-color: aqua;
+
+
+     }
+        
+    
+    

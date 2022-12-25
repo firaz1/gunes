@@ -1,0 +1,107 @@
+
+div{
+    background: linear-gradient(blue,green);
+    margin: 10px;
+    padding: 10px;
+}
+
+.div1{
+    background: conic-gradient(brown,white);
+    width: 250px;
+    height: 250px;
+
+   min-width: 400px;
+   max-height: 350px;
+
+   max-width: 450px;
+   min-height: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 0.9;
+
+}
+
+.div2{
+    visibility: hidden;
+}
+
+.div3{
+    display: none;
+}
+.div4{
+    display:none ;
+}
+.div4{
+    display: inline;
+}
+.div6{
+    background-color: antiquewhite;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    z-index: 3px;
+}
+.div9{
+    background-color: blueviolet;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 3px;
+}
+.ana{
+    background-color:crimson
+}
+.cocuk{
+    float: left;
+    width:  70px;
+    height: 70px;
+    background: linear-gradient(yellow,red,white);
+}
+.ozel-cocuk{
+    background-color: blue;
+    clear: both;
+}
+
+@media all {
+    .ozel-cocuk{
+        font-size: 35px;
+    }
+}
+
+@media screen, print{
+    .cocuk{
+        color: brown;
+    }
+}
+
+@media (max-width: 600px) {
+    .div{
+        background-color: blueviolet;
+    }
+}
+
+form{
+    margin-top: 100px;
+}
+
+[title=nasilsin]{
+    background-color: goldenrod;
+}
+[type="text"] {
+    background-color: wheat;
+}
+
+.div1{
+    background: radial-gradient(pink,brown);
+}
+
+.div7{
+    width: 70px;
+    height: 70px;
+    background:radial-gradient(violet,white);
+}
+
+
+
+    
+
